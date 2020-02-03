@@ -1,0 +1,152 @@
+#app
+server:
+  port: 8603
+
+#阿里大于
+templateCode: SMS_XXXXXX #短信模板编号
+signName: theblog
+PROJECT_NAME_EN: theblog
+
+theBlog:
+  email: 306741422@qq.com
+
+data:
+  # 门户页面
+  webSite:
+    url: http://localhost:9527/#/
+  # mogu_web网址，用于第三方登录回调
+  web:
+    url: http://127.0.0.1:8603
+  # 静态资源映射，通过nginx
+  image:
+    url: http://localhost:8600/
+file:
+  upload:
+    path: D:/mogu_blog/data/
+
+#博客相关配置
+BLOG:
+  HOT_COUNT: 5 #热门博客数量
+  HOT_TAG_COUNT: 20 #热门标签数量
+  NEW_COUNT: 15 #最新博客数据
+  FIRST_COUNT: 5 #一级推荐
+  SECOND_COUNT: 2 #二级推荐
+  THIRD_COUNT: 3 #三级推荐
+  FOURTH_COUNT: 5 #四级推荐
+  USER_TOKEN_SURVIVAL_TIME: 6000 # toekn令牌存活时间, 100分钟
+
+
+#spring
+spring:
+  jmx:
+    default-domain: mogu_web
+  thymeleaf:
+    cache: true   #关闭缓存
+  application:
+    name: mogu-web
+
+  # DATABASE CONFIG
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/mogu_blog?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&useSSL=false&serverTimezone=GMT%2B8
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+
+    # 初始化大小，最小，最大
+    initialSize: 5
+    minIdle: 5
+    maxActive: 50
+
+    #连接等待超时时间
+    maxWait: 60000
+
+    #配置隔多久进行一次检测(检测可以关闭的空闲连接)
+    timeBetweenEvictionRunsMillis: 60000
+
+    #配置连接在池中的最小生存时间
+    minEvictableIdleTimeMillis: 300000
+
+    dbcp:
+      remove-abandoned: true
+      #泄露的连接可以被删除的超时时间（秒），该值应设置为应用程序查询可能执行的最长时间
+      remove-abandoned-timeout: 180
+
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+
+    #配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
+    filters: stat,wall,log4j
+    maxPoolPreparedStatementPerConnectionSize: 20
+    useGlobalDataSourceStat: true
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
+
+  #Solr配置信息
+  data:
+    solr:
+      host: http://localhost:8080/solr
+      core: collection1
+      repositories:
+        enabled: true
+
+  #redis
+  redis:
+    host: 127.0.0.1 #redis的主机ip
+    port: 6379
+
+#eureka相关配置
+eureka:
+  client:
+    healthcheck:
+      enabled: true
+    serviceUrl:
+      defaultZone: http://user:password123@localhost:8761/eureka
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${spring.cloud.client.ipAddress}:${spring.application.instance_id:${server.port}}
+    metadata-map:
+      zone: ABC      # eureka可以理解的元数据
+      lilizhou: BBC  # 不会影响客户端行为
+    lease-renewal-interval-in-seconds: 5
+
+# 或者：
+feign.hystrix.enabled: false ## 索性禁用feign的hystrix支持
+
+#mybatis
+mybatis-plus:
+  mapper-locations: classpath:/mapper/*Mapper.xml
+  #实体扫描，多个package用逗号或者分号分隔
+  typeAliasesPackage: com.moxi.mogublog.xo.entity
+  global-config:
+    # 数据库相关配置
+    db-config:
+      #主键类型  0:"数据库ID自增", 1:"用户输入ID",2:"全局唯一ID (数字类型唯一ID)", 3:"全局唯一ID UUID";
+      id-type: UUID
+      #字段策略 IGNORED:"忽略判断",NOT_NULL:"非 NULL 判断"),NOT_EMPTY:"非空判断"
+      field-strategy: NOT_EMPTY
+      #驼峰下划线转换
+      column-underline: true
+      #数据库大写下划线转换
+      #capital-mode: true
+      #逻辑删除配置
+      logic-delete-value: 0
+      logic-not-delete-value: 1
+      db-type: mysql
+    #刷新mapper 调试神器
+    refresh: true
+  # 原生配置
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false
+
+# 第三方登录
+justAuth:
+  clientId:
+    gitee: bd8238be8154932860aab5b1d2594f00d5472970b6d72f83f338eecb474d6898
+    github: 4fbf8a5fe687887c2549
+  clientSecret:
+    gitee: 39f64142da6819e394b6d093984cec39d41e47eb5fd824f49fc0c24bbcbd8ec7
+    github: 7318a7bea7a5b006a97ac8e7758d130ce04e622e
+
