@@ -6,7 +6,6 @@
         <groupId>org.fantasizer</groupId>
         <artifactId>theblog</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.fantasizer.theblog</groupId>
     <artifactId>sms</artifactId>
