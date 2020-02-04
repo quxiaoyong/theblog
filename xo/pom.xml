@@ -8,7 +8,7 @@
         <version>0.0.1-SNAPSHOT</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>org.fantasizer</groupId>
+    <groupId>org.fantasizer.theblog</groupId>
     <artifactId>xo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>xo</name>

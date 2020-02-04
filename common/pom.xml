@@ -46,7 +46,7 @@
 
         <dependency>
             <artifactId>helper</artifactId>
-            <groupId>org.fantasizer</groupId>
+            <groupId>org.fantasizer.theblog</groupId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 

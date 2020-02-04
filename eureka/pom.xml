@@ -8,7 +8,7 @@
         <version>0.0.1-SNAPSHOT</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>org.fantasizer</groupId>
+    <groupId>org.fantasizer.theblog</groupId>
     <artifactId>eureka</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>eureka</name>
@@ -62,7 +62,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <!-- 指定该Main Class为全局的唯一入口 -->
-                    <mainClass>com.moxi.mogublog.eureka.EurekaApplication</mainClass>
+                    <mainClass>org.fantasizer.theblog.eureka.EurekaApplication</mainClass>
                     <layout>ZIP</layout>
                 </configuration>
                 <executions>

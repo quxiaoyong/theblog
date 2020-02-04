@@ -8,7 +8,7 @@
         <version>0.0.1-SNAPSHOT</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>org.fantasizer</groupId>
+    <groupId>org.fantasizer.theblog</groupId>
     <artifactId>web</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>web</name>
@@ -21,7 +21,7 @@
     <dependencies>
         <dependency>
             <artifactId>xo</artifactId>
-            <groupId>org.fantasizer</groupId>
+            <groupId>org.fantasizer.theblog</groupId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
@@ -101,7 +101,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <!-- 指定该Main Class为全局的唯一入口 -->
-                    <mainClass>com.moxi.mogublog.web.WebApplication</mainClass>
+                    <mainClass>org.fantasizer.theblog.web.WebApplication</mainClass>
                     <layout>ZIP</layout>
                 </configuration>
                 <executions>
