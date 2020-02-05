@@ -15,6 +15,7 @@
     <packaging>pom</packaging>
     <description>A blog system build in SpringBoot</description>
 
+
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
@@ -46,7 +47,6 @@
         <module>common</module>
         <module>config</module>
         <module>eureka</module>
-        <module>helper</module>
         <module>picture</module>
         <module>sms</module>
         <module>web</module>
@@ -89,6 +89,18 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+                    <skip>true</skip><!--跳过单元测试 -->
+                    <!--<testFailureIgnore>true</testFailureIgnore> -->
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
             </plugin>
         </plugins>
     </build>
