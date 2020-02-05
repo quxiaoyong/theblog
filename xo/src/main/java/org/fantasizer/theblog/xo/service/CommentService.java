@@ -10,7 +10,6 @@ import org.fantasizer.theblog.xo.entity.Comment;
  * @Date 2020-01-30 19:50
  */
 public interface CommentService extends BaseService<Comment> {
-
     /**
      * 获取评论数目
      *
