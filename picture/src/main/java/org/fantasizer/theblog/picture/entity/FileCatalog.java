@@ -2,7 +2,7 @@ package org.fantasizer.theblog.picture.entity;
 
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
-import org.fantasizer.common.entity.BaseEntity;
+import org.fantasizer.theblog.common.entity.BaseEntity;
 
 @TableName("t_file_catalog")
 @Data

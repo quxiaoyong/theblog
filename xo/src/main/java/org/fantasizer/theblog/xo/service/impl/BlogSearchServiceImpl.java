@@ -1,7 +1,7 @@
 package org.fantasizer.theblog.xo.service.impl;
 
-import org.fantasizer.common.enums.Status;
-import org.fantasizer.common.helper.StringUtils;
+import org.fantasizer.theblog.common.enums.Status;
+import org.fantasizer.theblog.common.helper.StringUtils;
 import org.fantasizer.theblog.xo.entity.Blog;
 import org.fantasizer.theblog.xo.entity.BlogCatalog;
 import org.fantasizer.theblog.xo.entity.SolrIndex;

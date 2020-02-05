@@ -2,7 +2,7 @@ package org.fantasizer.theblog.xo.vo;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
-import org.fantasizer.common.vo.BaseVO;
+import org.fantasizer.theblog.common.vo.BaseVO;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import java.util.Date;

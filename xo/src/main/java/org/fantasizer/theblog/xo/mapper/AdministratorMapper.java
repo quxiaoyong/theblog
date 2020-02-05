@@ -1,7 +1,7 @@
 package org.fantasizer.theblog.xo.mapper;
 
 import org.apache.ibatis.annotations.Param;
-import org.fantasizer.common.mapper.TheBlogMapper;
+import org.fantasizer.theblog.common.mapper.TheBlogMapper;
 import org.fantasizer.theblog.xo.entity.Administrator;
 
 /**

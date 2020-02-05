@@ -1,6 +1,6 @@
 package org.fantasizer.theblog.admin.config;
 
-import org.fantasizer.common.handler.TheBlogHandlerExceptionResolver;
+import org.fantasizer.theblog.common.handler.TheBlogHandlerExceptionResolver;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

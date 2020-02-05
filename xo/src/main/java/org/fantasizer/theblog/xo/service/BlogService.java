@@ -2,7 +2,7 @@ package org.fantasizer.theblog.xo.service;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import org.fantasizer.common.service.BaseService;
+import org.fantasizer.theblog.common.service.BaseService;
 import org.fantasizer.theblog.xo.entity.Blog;
 
 import java.util.List;

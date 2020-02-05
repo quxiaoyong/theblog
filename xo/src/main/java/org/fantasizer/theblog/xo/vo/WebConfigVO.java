@@ -2,7 +2,7 @@ package org.fantasizer.theblog.xo.vo;
 
 import com.baomidou.mybatisplus.annotation.TableField;
 import lombok.Data;
-import org.fantasizer.common.vo.BaseVO;
+import org.fantasizer.theblog.common.vo.BaseVO;
 
 import java.util.List;
 

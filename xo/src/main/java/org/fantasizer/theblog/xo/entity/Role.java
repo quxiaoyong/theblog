@@ -4,7 +4,7 @@ import com.baomidou.mybatisplus.annotation.FieldStrategy;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
-import org.fantasizer.common.entity.BaseEntity;
+import org.fantasizer.theblog.common.entity.BaseEntity;
 
 /**
  * @Author Cruise Qu

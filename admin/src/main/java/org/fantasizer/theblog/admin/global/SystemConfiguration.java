@@ -1,6 +1,6 @@
 package org.fantasizer.theblog.admin.global;
 
-import org.fantasizer.common.global.BasicSystemConfiguration;
+import org.fantasizer.theblog.common.global.BasicSystemConfiguration;
 
 /**
  * @Author Cruise Qu

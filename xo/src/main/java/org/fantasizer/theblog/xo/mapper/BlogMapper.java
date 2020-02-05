@@ -1,9 +1,8 @@
 package org.fantasizer.theblog.xo.mapper;
 
-import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
-import org.fantasizer.common.mapper.TheBlogMapper;
+import org.fantasizer.theblog.common.mapper.TheBlogMapper;
 import org.fantasizer.theblog.xo.entity.Blog;
 
 import java.util.List;

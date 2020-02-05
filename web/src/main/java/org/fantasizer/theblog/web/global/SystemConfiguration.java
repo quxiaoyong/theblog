@@ -1,6 +1,6 @@
 package org.fantasizer.theblog.web.global;
 
-import org.fantasizer.common.global.BasicSystemConfiguration;
+import org.fantasizer.theblog.common.global.BasicSystemConfiguration;
 
 public final class SystemConfiguration extends BasicSystemConfiguration {
 

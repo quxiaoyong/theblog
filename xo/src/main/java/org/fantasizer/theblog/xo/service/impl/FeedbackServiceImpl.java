@@ -1,6 +1,6 @@
 package org.fantasizer.theblog.xo.service.impl;
 
-import org.fantasizer.common.service.impl.BaseServiceImpl;
+import org.fantasizer.theblog.common.service.impl.BaseServiceImpl;
 import org.fantasizer.theblog.xo.entity.Feedback;
 import org.fantasizer.theblog.xo.mapper.FeedbackMapper;
 import org.fantasizer.theblog.xo.service.FeedbackService;

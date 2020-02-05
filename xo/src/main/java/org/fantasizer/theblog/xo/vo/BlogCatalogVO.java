@@ -1,10 +1,10 @@
 package org.fantasizer.theblog.xo.vo;
 
 import lombok.Data;
-import org.fantasizer.common.validator.annnotation.NotBlank;
-import org.fantasizer.common.validator.group.Insert;
-import org.fantasizer.common.validator.group.Update;
-import org.fantasizer.common.vo.BaseVO;
+import org.fantasizer.theblog.common.validator.annnotation.NotBlank;
+import org.fantasizer.theblog.common.validator.group.Insert;
+import org.fantasizer.theblog.common.validator.group.Update;
+import org.fantasizer.theblog.common.vo.BaseVO;
 
 /**
  * @Author Cruise Qu

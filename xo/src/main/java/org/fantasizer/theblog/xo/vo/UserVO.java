@@ -2,10 +2,10 @@ package org.fantasizer.theblog.xo.vo;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
-import org.fantasizer.common.validator.annnotation.NotBlank;
-import org.fantasizer.common.validator.group.FetchOne;
-import org.fantasizer.common.validator.group.Insert;
-import org.fantasizer.common.vo.BaseVO;
+import org.fantasizer.theblog.common.validator.annnotation.NotBlank;
+import org.fantasizer.theblog.common.validator.group.FetchOne;
+import org.fantasizer.theblog.common.validator.group.Insert;
+import org.fantasizer.theblog.common.vo.BaseVO;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import java.util.Date;

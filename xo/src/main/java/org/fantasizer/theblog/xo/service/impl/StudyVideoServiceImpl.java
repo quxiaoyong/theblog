@@ -1,6 +1,6 @@
 package org.fantasizer.theblog.xo.service.impl;
 
-import org.fantasizer.common.service.impl.BaseServiceImpl;
+import org.fantasizer.theblog.common.service.impl.BaseServiceImpl;
 import org.fantasizer.theblog.xo.entity.StudyVideo;
 import org.fantasizer.theblog.xo.mapper.StudyVideoMapper;
 import org.fantasizer.theblog.xo.service.StudyVideoService;

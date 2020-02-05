@@ -4,7 +4,7 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.serializer.SerializerFeature;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.*;
-import org.fantasizer.common.helper.IpUtils;
+import org.fantasizer.theblog.common.helper.IpUtils;
 import org.fantasizer.theblog.config.security.SecurityUser;
 import org.fantasizer.theblog.xo.entity.ExceptionLog;
 import org.fantasizer.theblog.xo.entity.SystemLog;

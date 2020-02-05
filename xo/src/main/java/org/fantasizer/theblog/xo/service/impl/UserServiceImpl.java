@@ -1,10 +1,10 @@
 package org.fantasizer.theblog.xo.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import org.fantasizer.common.global.BasicSQLConfiguration;
-import org.fantasizer.common.helper.IpUtils;
-import org.fantasizer.common.helper.JsonHelper;
-import org.fantasizer.common.service.impl.BaseServiceImpl;
+import org.fantasizer.theblog.common.global.BasicSQLConfiguration;
+import org.fantasizer.theblog.common.helper.IpUtils;
+import org.fantasizer.theblog.common.helper.JsonHelper;
+import org.fantasizer.theblog.common.service.impl.BaseServiceImpl;
 import org.fantasizer.theblog.xo.entity.User;
 import org.fantasizer.theblog.xo.mapper.UserMapper;
 import org.fantasizer.theblog.xo.service.UserService;

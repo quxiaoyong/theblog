@@ -1,0 +1,68 @@
+package org.fantasizer.theblog.common.global;
+
+/**
+ * @Author Cruise Qu
+ * @Date 2020-01-29 21:51
+ */
+public class ErrorConstants {
+
+    /**
+     * 操作成功
+     */
+    public static final String OPERATION_SUCCESS = "00000";
+    /**
+     * 操作失败
+     */
+    public static final String OPERATION_FAIL = "00001";
+
+    /**
+     * // 该数据不存在
+     */
+    public static final String DATA_NO_EXIST = "00002";
+
+    /**
+     * // 该账号未激活
+     */
+    public static final String LOGIN_NOT_ACTIVE = "00003";
+
+    /**
+     * // 该账号已被封禁
+     */
+    public static final String LOGIN_DISABLE = "00004";
+
+    /**
+     * // 登录失败，用户名或密码错误
+     */
+    public static final String LOGIN_ERROR = "00005";
+
+    /**
+     * // 接口过于频繁调用
+     */
+    public static final String INTERFACE_FREQUENTLY = "00006";
+
+    /**
+     * // 传入参数有误！
+     */
+    public static final String PARAM_INCORRECT = "00007";
+
+    /**
+     * // 令牌未被识别
+     */
+    public final static String INVALID_TOKEN = "00008";
+
+    /**
+     * // 该数据无权限访问
+     */
+    public static final String DATA_NO_PRIVILEGE = "00997";
+
+    /**
+     * // 该资源无权限访问
+     */
+    public static final String ACCESS_NO_PRIVILEGE = "00998";
+
+    /**
+     * // 您已退出，请重新登录
+     */
+    public static final String LOGIN_TIMEOUT = "00999";
+
+}

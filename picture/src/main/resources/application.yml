@@ -8,7 +8,7 @@ data:
     url: http://localhost:8600/
 file:
   upload:
-    path: D:/mogu_blog/data/
+    path: D:/theblog/data/
 
 
 #spring
@@ -24,7 +24,7 @@ spring:
   thymeleaf:
     cache: true   #关闭缓存
   application:
-    name: mogu-picture
+    name: theblog-picture
   security:
     user:
       name: user
@@ -34,7 +34,7 @@ spring:
   datasource:
     username: root
     password: root
-    url: jdbc:mysql://localhost:3306/mogu_picture?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&useSSL=false&serverTimezone=GMT%2B8
+    url: jdbc:mysql://106.13.233.42:3306/theblog_picture?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&useSSL=false&serverTimezone=GMT%2B8
     driver-class-name: com.mysql.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
 

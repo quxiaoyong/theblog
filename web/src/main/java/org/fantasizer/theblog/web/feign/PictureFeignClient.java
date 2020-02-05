@@ -1,6 +1,6 @@
 package org.fantasizer.theblog.web.feign;
 
-import org.fantasizer.common.vo.FileVO;
+import org.fantasizer.theblog.common.vo.FileVO;
 import org.fantasizer.theblog.web.config.FeignConfiguration;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,6 +1,6 @@
 package org.fantasizer.theblog.xo.service.impl;
 
-import org.fantasizer.common.service.impl.BaseServiceImpl;
+import org.fantasizer.theblog.common.service.impl.BaseServiceImpl;
 import org.fantasizer.theblog.xo.entity.Link;
 import org.fantasizer.theblog.xo.mapper.LinkMapper;
 import org.fantasizer.theblog.xo.service.LinkService;

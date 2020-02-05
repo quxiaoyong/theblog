@@ -1,6 +1,6 @@
 package org.fantasizer.theblog.admin.security;
 
-import org.fantasizer.common.enums.Status;
+import org.fantasizer.theblog.common.enums.Status;
 import org.fantasizer.theblog.config.security.SecurityUser;
 import org.fantasizer.theblog.xo.entity.Administrator;
 import org.springframework.security.core.GrantedAuthority;

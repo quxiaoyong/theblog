@@ -1,7 +1,7 @@
 package org.fantasizer.theblog.xo.service.impl;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import org.fantasizer.common.global.BasicSQLConfiguration;
-import org.fantasizer.common.service.impl.BaseServiceImpl;
+import org.fantasizer.theblog.common.global.BasicSQLConfiguration;
+import org.fantasizer.theblog.common.service.impl.BaseServiceImpl;
 import org.fantasizer.theblog.xo.entity.Comment;
 import org.fantasizer.theblog.xo.mapper.CommentMapper;
 import org.fantasizer.theblog.xo.service.CommentService;

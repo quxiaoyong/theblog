@@ -1,6 +1,6 @@
 package org.fantasizer.theblog.admin.global;
 
-import org.fantasizer.common.global.BasicSQLConfiguration;
+import org.fantasizer.theblog.common.global.BasicSQLConfiguration;
 
 /**
  * @Author Cruise Qu

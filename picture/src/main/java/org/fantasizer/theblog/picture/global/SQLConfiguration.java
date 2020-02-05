@@ -1,7 +1,7 @@
 package org.fantasizer.theblog.picture.global;
 
 
-import org.fantasizer.common.global.BasicSQLConfiguration;
+import org.fantasizer.theblog.common.global.BasicSQLConfiguration;
 
 public final class SQLConfiguration extends BasicSQLConfiguration {
 

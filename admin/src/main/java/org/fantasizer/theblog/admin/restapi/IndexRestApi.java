@@ -2,8 +2,8 @@ package org.fantasizer.theblog.admin.restapi;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import org.fantasizer.common.enums.Status;
-import org.fantasizer.common.helper.ResultUtil;
+import org.fantasizer.theblog.common.enums.Status;
+import org.fantasizer.theblog.common.helper.ResultUtil;
 import org.fantasizer.theblog.admin.global.SystemConfiguration;
 import org.fantasizer.theblog.xo.service.BlogService;
 import org.fantasizer.theblog.xo.service.CommentService;

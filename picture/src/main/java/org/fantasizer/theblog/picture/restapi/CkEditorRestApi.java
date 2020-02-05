@@ -1,6 +1,6 @@
 package org.fantasizer.theblog.picture.restapi;
 
-import org.fantasizer.common.helper.StringUtils;
+import org.fantasizer.theblog.common.helper.StringUtils;
 import org.fantasizer.theblog.picture.util.Aboutfile;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,6 +1,6 @@
 package org.fantasizer.theblog.xo.service;
 
-import org.fantasizer.common.service.BaseService;
+import org.fantasizer.theblog.common.service.BaseService;
 import org.fantasizer.theblog.xo.entity.Feedback;
 
 /**

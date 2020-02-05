@@ -1,6 +1,6 @@
 package org.fantasizer.theblog.sms.listener;
 
-import org.fantasizer.common.helper.JsonHelper;
+import org.fantasizer.theblog.common.helper.JsonHelper;
 import org.fantasizer.theblog.sms.global.SystemConfiguration;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.beans.factory.annotation.Autowired;
